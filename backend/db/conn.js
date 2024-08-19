@@ -6,7 +6,7 @@ async function main() {
         mongoose.set("strictQuery", true);
         
         await mongoose.connect(
-            "mongodb+srv://beratechsolutions:L0leKayJICU7zmAc@cluster0.ktqer.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+            "mongodb+srv://beratechsolutions:yohpbGOVsmNY4VBt@partyfull.kb4t7.mongodb.net/?retryWrites=true&w=majority&appName=partyfull"
         );
 
         console.log("Conectado ao banco!");
